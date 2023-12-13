@@ -1,0 +1,96 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+.price h3 {
+    color: #9f2626; /* Change to your desired color */
+  }
+  
+  .price p {
+    color: #055172; /* Change to your desired color */
+  }
+
+.description h3 {
+    color: #9f2626; /* Change to your desired color */
+  }
+  
+  .description p {
+    color: #055172; /* Change to your desired color */
+  }
+
+  .ratings-reviews h3 {
+    color: #9f2626; /* Change to your desired color */
+  }
+  .size-box {
+    background-color: #41b5b7; /* Change to your desired color */
+  }
+  
+  .star-rating {
+    color: #4ccabb69; /* Change to your desired color for stars */
+    font-size: 24px; /* Adjust the font size if needed */
+    border-color: #21d8db;
+  }
+
+
+/* Styling the product customization section */
+.product-customization {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EEDFEC; /* Background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #9f2626; /* Text color */
+    text-align: center; /* Center text */
+}
+
+.product-customization h1 {
+    color: #2B369B; /* Title color */
+    margin-bottom: 10px; /* Adding spacing below the title */
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.image-placeholder img {
+    max-width: 200px; /* Set the maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+/* Styling individual sections */
+.product-info {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.price, .description, .ratings-reviews, .size-options, .color-options, .customization-feature {
+    margin-top: 20px; /* Adding spacing between sections */
+}
+
+/* Styling for size boxes */
+.size-options, .color-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.size-box, .color-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+/* Styling for the customization images */
+.customization-feature img {
+    max-width: 50px; /* Set the maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-bottom: 10px; /* Adding spacing between images */
+    border: 1px solid #fefbfb; /* Add border similar to other images */
+    margin: 5px; /* Add margin similar to other images */
+    margin-left: 100px;
+}
